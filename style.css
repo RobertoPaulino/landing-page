@@ -1,0 +1,12 @@
+body {
+    display: flex;
+    flex: 1;
+    flex-flow: column nowrap;
+}
+
+.image {
+    width: auto;
+    height: auto;
+    max-width: 700px;
+    max-height: 700px;
+}
