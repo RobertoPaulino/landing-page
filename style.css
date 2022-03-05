@@ -2,6 +2,7 @@ body {
     display: flex;
     flex: 1;
     flex-flow: column nowrap;
+    font-family: Roboto, sans-serif;
 }
 
 ul {
@@ -27,4 +28,27 @@ ul {
     gap: 24px;
     justify-self: flex-end;
     padding-right: 24px;
+}
+
+.container {
+    padding-top: 140px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.header,
+.container {
+    background-color: #1F2937;
+}
+
+.content {
+    max-width: 400px;
+
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 800;
 }
