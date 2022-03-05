@@ -3,6 +3,7 @@ body {
     flex: 1;
     flex-flow: column nowrap;
     font-family: Roboto, sans-serif;
+    margin: 0px;
 }
 
 ul {
@@ -12,8 +13,8 @@ ul {
 .image {
     width: auto;
     height: auto;
-    max-width: 700px;
-    max-height: 700px;
+    max-width: 900px;
+    max-height: 900px;
 }
 
 .header {
@@ -28,14 +29,16 @@ ul {
     gap: 24px;
     justify-self: flex-end;
     padding-right: 24px;
+
 }
 
 .container {
     padding-top: 140px;
     display: flex;
     flex-flow: row nowrap;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
+    padding-bottom: 250px;
 }
 
 .header,
@@ -44,11 +47,33 @@ ul {
 }
 
 .content {
-    max-width: 400px;
-
+    display: flex;
+    flex-flow: column nowrap;
+    max-width: 700px;
 }
 
 .title {
     font-size: 48px;
     font-weight: 800;
+    color: #F9FAF8;
+}
+
+.header-links,
+.subtext, 
+.button
+{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.subtext {
+    margin-top: 20px;
+}
+
+.button {
+    margin-top: 20px;
+    width: 150px;
+    background-color: #3882F6;
+    padding: 14px 20px;
+    border-radius: 14px;
 }
