@@ -4,9 +4,27 @@ body {
     flex-flow: column nowrap;
 }
 
+ul {
+    list-style-type: none;
+}
+
 .image {
     width: auto;
     height: auto;
     max-width: 700px;
     max-height: 700px;
+}
+
+.header {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-links {
+    display: flex;
+    gap: 24px;
+    justify-self: flex-end;
+    padding-right: 24px;
 }
