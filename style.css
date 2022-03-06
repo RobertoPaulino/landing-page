@@ -44,7 +44,7 @@ a {
     flex-direction: column;
     flex: 1;
     justify-content: space-evenly  ;
-    padding-left: 250px;
+    padding-left: 200px;
     padding-right: 0px;
     justify-content: flex-start;
     padding-top: 20px;
@@ -63,7 +63,7 @@ a {
     justify-items: flex-start;
     align-items: flex-end;
     padding-bottom: 250px;
-    padding-right: 250px;
+    padding-right: 200px;
     
 }
 
