@@ -8,6 +8,8 @@ body {
 
 ul {
     list-style-type: none;
+    margin: 0px;
+    padding: 0px;
 }
 
 a {
@@ -15,23 +17,33 @@ a {
     color: #E5E7EB;
 }
 
+
+
 .hero {
     display: flex;
-    flex: 1;
-    padding-left: 100px;
-    padding-right: 100px;
     background-color: #1F2937;
-    gap:20px;
+    justify-content: center;
+    align-items: flex-start;
+    height: 1000px;
+    gap: 80px;
+    padding: 50px 100px;
 }
 
 
 .image {
-    width: auto;
-    height: auto;
-    max-width: 900px;
-    max-height: 900px;
+    border-radius: 50px;  
+    max-width: 800px;
+    width: 100%;
+}
 
-    border-radius: 50px;    
+.image-footer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    display: flex;
+
+    align-self: center;
 }
 
 .logo {
@@ -42,29 +54,24 @@ a {
 
 .header {
     display: flex;
+    height: 1000px;
+    gap: 300px;
     flex-direction: column;
-    flex: 1;
-    justify-content: space-evenly  ;
-    padding-left: 200px;
-    padding-right: 0px;
-    justify-content: flex-start;
-    padding-top: 20px;
 }
 
 .header-links {
     display: flex;
-    gap: 24px;
-    margin-bottom: 140px;
-    margin-top: 33px;
+    align-self: flex-end;
+    gap: 48px;
 }
 
 .container {
     display: flex;
-    flex-flow: column nowrap;
-    justify-items: flex-start;
-    align-items: flex-end;
-    padding-bottom: 250px;
-    padding-right: 100px;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+    gap: 100px;
     
 }
 
@@ -72,7 +79,6 @@ a {
     display: flex;
     flex-flow: column nowrap;
     max-width: 600px;
-    padding-top: 300px;
 
 }
 
