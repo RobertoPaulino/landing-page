@@ -10,12 +10,16 @@ ul {
     list-style-type: none;
 }
 
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
 .hero {
     display: flex;
     flex: 1;
     padding-left: 100px;
     padding-right: 100px;
-
     background-color: #1F2937;
 }
 
@@ -40,8 +44,8 @@ ul {
     flex-direction: column;
     flex: 1;
     justify-content: space-evenly  ;
-    padding-left: auto;
-    padding-right: 42px;
+    padding-left: 250px;
+    padding-right: 0px;
     justify-content: flex-start;
     padding-top: 20px;
 }
@@ -59,7 +63,7 @@ ul {
     justify-items: flex-start;
     align-items: flex-end;
     padding-bottom: 250px;
-    padding-right: auto;
+    padding-right: 250px;
     
 }
 
@@ -97,6 +101,7 @@ ul {
     background-color: #3882F6;
     padding: 14px 20px;
     border-radius: 14px;
+    font-weight: 700;
 }
 
 .information {
@@ -153,9 +158,8 @@ ul {
 
 }
 
-.footer {
+.quote-section {
     margin-top: 200px;
-    margin-bottom: 200px;
     padding: 500px 300px;
 
     display: flex;
@@ -175,4 +179,53 @@ ul {
     font-weight: 700;
     align-self: flex-end;
     font-size: 24px;
+}
+
+.signup-area {
+    display: flex;
+    flex: 1;
+    padding: 100px 0px;
+    justify-content: center;
+
+    color: white;
+}
+
+.product-signup {
+    display: flex;
+    padding: 50px 100px;
+    border-radius: 22px;
+    background-color: #3882F6;
+
+    gap: 40px;
+}
+
+.sign-button{
+    width: 150px;
+    background-color: #3882F6;
+    padding: 14px 20px;
+    border-radius: 14px;
+    font-weight: 700;
+
+    border: medium solid white;
+    color: white;
+
+}
+
+.footer {
+    display: flex;
+    color: white;
+    background-color: #1f2937;
+    justify-content: center;
+    
+}
+
+.copyright {
+    margin: 52px;
+    align-self: center;
+    
+}
+
+.image-footer {
+    text-align: center;
+    color: gray;
 }
